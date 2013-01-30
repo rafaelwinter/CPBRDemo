@@ -10,4 +10,8 @@
 
 @interface MasterViewController : UITableViewController
 
+@property (strong, nonatomic) NSMutableArray *tweetList;
+
+- (void)loadCPBR6Tweets;
+
 @end
